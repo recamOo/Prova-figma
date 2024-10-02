@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 1024px;
+    flex-wrap: wrap;
+}
+/* Por algum motivo colocar as mesma medidas do figma no site fica diferente */
+h1{
+    font-family: Lato;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76.8px;
+   /* era culpa do  letter-spacing: 0.01em; que não fazia ele ficar na mesma linha */
+    text-align: left;
+    color:#333333;
+}
+
+p{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justified;
+    /* vamos supor que esteja certo, quase espirrei no meio da aula, odeio gripe */
+}
+
+button{
+    /* a parte mais chata */
+    margin-left: 170px;
+    /* espirrei alto foda-se */
+    width: Hug (222px)px;
+    height: Hug (66px)px;
+    padding: 24px 56px 24px 56px;
+    border-radius: 40px;
+    background-color: #333333;
+    color: white;
+    /* não consegui usar flex no botão, perdão moço */
+}
+
+.cima{
+    margin-top: 85px;
+    width: 566px;
+    height: 352px;
+}
+
+.circulo{
+    flex-direction: column;
+    width: 151px;
+    height: 472px;
+    margin-top: 85px;
+}
+
+.baixo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 348px;
+}
+
+.imagem{
+    width: 302px;
+    height: 348px;
+}
